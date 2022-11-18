@@ -1,0 +1,39 @@
+* {box-sizing: border-box;}
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+}
+.hero {
+	text-align: center;	
+	background: url('/static/lessons/blue-grid.jpg') 0/cover;
+	height: 100px;
+	line-height: 50px;
+	overflow: auto;
+	color: #fff;
+	box-shadow: 2px 2px 5px #444;
+	border: none;
+}
+h1 {
+	text-shadow: 2px 2px 5px #444;	
+}
+h2, p {
+	margin-top: 0;	
+}
+div {
+	border: 3px solid;
+}
+.footer {
+	text-align: center;
+	padding: 20px;
+	font-size: 10px;
+	border: none;
+}
+.container {
+	max-width: 500px;	
+	margin: 20px auto;
+}
+.row {
+	border-color: #2ecc71;
+    display: flex;
+    flex-wrap: wrap;
+}

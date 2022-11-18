@@ -1,0 +1,37 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+}
+.hero {
+	text-align: center;	
+	background: url('/static/lessons/dark-mountains.jpg') 0/cover;
+	height: 200px;
+	line-height: 150px;
+	overflow: auto;
+	color: #fff;
+	box-shadow: 2px 2px 5px #444;
+}
+.container {
+	width: 80%;
+	max-width: 700px;
+	padding: 20px;
+	box-shadow: 2px 2px 5px #444;
+	margin: 20px auto;
+}
+.row {
+	display: flex;
+	height: 50px;
+}
+.first {
+	background-color: #3498db;
+	flex: 1;
+}
+.second {
+	background-color: #2ecc71;
+	flex: 10;	
+}
+.footer {
+	padding: 20px;
+	text-align: center;
+	font-size: 10px;
+}
