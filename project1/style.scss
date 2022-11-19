@@ -28,6 +28,8 @@ body {
     padding: 0 20px 0 20px;
     // o co chodzi z tym translateX? 
     transform: translateX();
+    margin: 0 auto;
+
 }
 
 section {
@@ -153,7 +155,11 @@ h1 span  {
     background-image: linear-gradient(90deg, $color-text-one 50%, transparent 50%);
 }
 
-/* section Our Service */
+/* services */
+
+.services{
+
+}
 
 .row {
     display: flex;
@@ -169,7 +175,7 @@ h1 span  {
 
 }
 
-.box {
+.services p {
     position: relative;
 }
 
