@@ -106,21 +106,19 @@ section {
 }
 
 .splash h1 {
-    margin: 0;
     font-size: 72px;
     word-spacing: -24px;
-    font-weight: 700;
     line-height: 1.2;
+    font-weight: 400;
 }
 
 .splash h2 {
     margin: 24px 0;
     font-size: 16px;
-    font-weight: 300;
 }
 
-.page-title span {
-    font-weight: 2000;
+h1 span  {
+    font-weight: bolder;
 }
 
 /* button */
