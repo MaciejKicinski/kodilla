@@ -119,7 +119,7 @@ section {
     font-size: 16px;
 }
 
-h1 span  {
+h1 span {
     font-weight: bolder;
 }
 
@@ -157,8 +157,20 @@ h1 span  {
 
 /* services */
 
-.services{
+.services {
+    padding: 96px 0 0 0;
+}
 
+section h2 {
+    font-size: 48px;
+    margin: 0 0 72px 0;
+    flex: 100%;
+}
+
+.services h3 {
+    font-size: 24px;
+    margin: 0 0 12px 0;
+    flex: 100%;
 }
 
 .row {
@@ -168,22 +180,57 @@ h1 span  {
     flex: 0 0 33.333%;
 }
 
-.row h3 {
-    font-size: 24px;
-    margin: 0 0 12px 0;
-    position: absolute;
-
-}
-
-.services p {
+.box {
+    flex: 0 0 33.333%;
     position: relative;
+    padding: 0 15px;
 }
 
 .box-number {
     position: absolute;
     font-size: 144px;
+    top: 0;
     line-height: 1;
-    font-weight: 1000;
-    offset: 100px 100px 100px 100px;
-    padding: 0;
+    color: $color-two;
 }
+
+.center {
+    justify-content: center;
+}
+
+.box p {
+    margin: 0;
+}
+
+.box p:first-of-type {
+    font-weight: bold;
+}
+
+.btn-two {
+    border-color: $color-two;
+    color: $color-two;
+    background-image: linear-gradient(90deg, $color-text-one 50%, transparent 50%);
+}
+
+.btn-three {
+    border-color: $color-three;
+    color: $color-three;
+    background-image: linear-gradient(90deg, $color-text-one 50%, transparent 50%);
+}
+
+.btn-four {
+    border-color: $color-one;
+    color: $color-one;
+    background-image: linear-gradient(90deg, $color-text-one 50%, transparent 50%);
+}
+
+/* our work */
+
+.our-work {
+    padding: 96px 0 0 0;
+}
+
+.our-work .box{
+    flex: 0 0 50%;
+}
+
