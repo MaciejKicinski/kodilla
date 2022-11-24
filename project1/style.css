@@ -146,7 +146,7 @@ section h2 {
   flex: 100%;
 }
 
-.services h3 {
+h3 {
   font-size: 24px;
   margin: 0 0 12px 0;
   flex: 100%;
@@ -210,4 +210,56 @@ section h2 {
 
 .our-work .box {
   flex: 0 0 50%;
+  min-height: 300px;
+  padding-bottom: 96px;
+}
+
+.our-work-description {
+  padding: 36px 0 36px 55%;
+  text-align: left;
+}
+
+.our-work img {
+  max-width: 250px;
+  height: 100%;
+  object-fit: cover;
+  padding-bottom: 96px;
+}
+
+.skill-image {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.skill-image::after {
+  opacity: 0.3;
+  right: 20px;
+  bottom: 20px;
+  background-color: #33d9b2;
+}
+
+.btn-five {
+  border: none;
+  margin: 36px 0;
+  padding: 0;
+  text-align: left;
+}
+
+/* contact us */
+.contact-us {
+  background-color: #0097e6;
+  color: #ffffff;
+  min-height: 500px;
+}
+
+form {
+  flex: 2 0 0;
+  padding-right: 96px;
+}
+
+.contact-us .box {
+  flex: 1 0 0;
+  padding: 0;
 }
