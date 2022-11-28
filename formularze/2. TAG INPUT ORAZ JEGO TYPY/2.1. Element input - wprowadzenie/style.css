@@ -1,0 +1,42 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto&subset=latin,latin-ext);
+body {
+	font-family: 'Roboto', sans-serif;
+	min-height: 100vh;
+	margin: 0;
+}
+header {
+	text-align: center;	
+	background: url('/static/lessons/7.jpg') 0/cover;
+	height: 200px;
+	line-height: 150px;
+	overflow: auto;
+	color: #fff;
+	box-shadow: 2px 2px 5px #444;
+}
+main {
+	width: 80%;
+	max-width: 700px;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	padding: 20px;
+	box-shadow: 2px 2px 5px #444;
+	margin: 5% auto 5% auto;
+}
+section {
+	text-align: center;
+}
+section input {
+    margin: 5px auto;
+}
+fieldset {
+	border: 0;
+}
+form {
+	display: flex;
+	flex-flow: column;
+}
+form > * {
+	padding: 5px;
+	text-align: center;
+}
