@@ -189,9 +189,10 @@ h3 {
 .box-number {
     position: absolute;
     font-size: 144px;
-    top: 0;
+    top: -10%;
     line-height: 1;
     color: $color-two;
+    opacity: 0.3
 }
 
 .center {
@@ -228,6 +229,18 @@ h3 {
 
 .our-work {
     padding: 96px 0 0 0;
+}
+
+.box-our-work {
+    flex: 0 0 50%;
+    position: relative;
+    padding: 0 15px 96px 15px;
+    min-height: 300px;
+
+}
+
+.box-our-work p:first-of-type {
+    font-weight: bold;
 }
 
 .our-work .box {
@@ -271,43 +284,90 @@ h3 {
 
 /* contact us */
 
-.contact-us{
+.contact-us {
     background-color: $color-one;
     color: $color-text-one;
     min-height: 500px;
 }
 
-form{
-    flex: 2 0 0;
-    padding-right: 96px;
+form p {
+    border-bottom: 3px solid $color-text-one;
+    margin: 0;
+    padding: 10px;
+
 }
 
-.contact-us .box{
+form {
+    flex: 2 0 0;
+    padding-right: 96px;
+    overflow: auto;
+    background-color: $color-one;
+}
+
+.contact-us .box {
     flex: 1 0 0;
     padding: 0;
 }
 
-h4{
-   margin: 0; 
-   position: relative;
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    background-color: $color-one;
+    opacity: 1;
+    /* Firefox */
+    color: $color-text-one;
+    font-family: 'Inconsolata';
+    font-size: 16px;
 }
 
-.position{
+input[type=text] {
+    width: 100%;
+    margin: 8px 0;
+    border: none;
+    box-shadow: none;
+    margin: 0;
+    font-family: 'Inconsolata';
+    font-weight: 600;
+    padding: 0;
+    max-width: 50%;
+}
+
+.message-placeholder {
+    height: 500px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.position {
     font-size: 20px;
     font-weight: bolder;
     margin: 0;
 }
 
-.contact-details{
+address {
+    font-style: normal;
+}
+
+.contact-details {
     padding-bottom: 20px;
 }
 
-form h4::after{
-position: absolute;
-content: '';
-    bottom: -15px;
-    left: -3%;
-    width: 200px;
-    height: 5px;
-    background: $color-text-one;
+/* footer */
+footer {
+    text-align: center;
+    padding: 48px 0;
+}
+
+.social-media i {
+    font-size: 30px;
+    background: orangered;
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    border-radius: 50%;
+    line-height: 60px;
+}
+
+.social-media li{
+    display: inline;
+    font-size: 0;
 }
