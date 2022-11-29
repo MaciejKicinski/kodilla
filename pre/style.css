@@ -140,7 +140,7 @@ section {
     overflow: hidden;
 }
 
-.skill-image:hover {
+img:hover {
     transform: scale(2);
 }
 
